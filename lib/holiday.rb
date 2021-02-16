@@ -78,7 +78,7 @@ def all_winter_holiday_supplies(holiday_hash)
   # end.flatten
   holiday_hash.map do |season, holiday, supplies|
 
- pritns holiday_hash[:winter].values.flatten
+ print holiday_hash[:winter].values.flatten
     if season == :winter
       puts "me"
       # holiday_hash[season][holiday]
