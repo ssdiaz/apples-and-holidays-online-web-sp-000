@@ -80,7 +80,7 @@ def all_winter_holiday_supplies(holiday_hash)
 
  print holiday_hash[:winter].values.flatten
   #  if season == :winter
-      puts "me"
+    #  puts "me"
       # holiday_hash[season][holiday]
       # puts supplies
     #end
