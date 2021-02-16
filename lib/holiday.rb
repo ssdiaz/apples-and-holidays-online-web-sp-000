@@ -76,15 +76,7 @@ def all_winter_holiday_supplies(holiday_hash)
   # holiday_hash[:winter].collect do |season, holiday|
   #   holiday
   # end.flatten
-  #holiday_hash.map do |season, holiday, supplies|
-
  holiday_hash[:winter].values.flatten
-  #  if season == :winter
-    #  puts "me"
-      # holiday_hash[season][holiday]
-      # puts supplies
-    #end
-  #end
 end
 
 def all_supplies_in_holidays(holiday_hash)
