@@ -78,6 +78,7 @@ def all_winter_holiday_supplies(holiday_hash)
   # end.flatten
   holiday_hash.map do |season, holiday, supplies|
     if season == :winter
+      holiday_hash[season][holiday]
       puts supplies
     end
   end
